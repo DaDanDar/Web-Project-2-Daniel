@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #1e1e1e; /* Dark mode background */
+    color: #f5f5f5; /* Dark mode text color */
+    padding: 20px;
+    background-image: url('/media/treatyonesigning.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(28, 28, 28, 0.8); /* Dark mode nav background */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ddd; /* Dark mode link color */
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-radius: 5px;
+    color: #fff; /* Link color on hover */
+    background-color: #4CAF50; /* Dark mode hover background color */
+}
+
+main {
+    margin-top: 80px;
+    background-color: rgba(46, 46, 46, 0.9); /* Dark mode main background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    color: #4CAF50; /* Dark mode heading color */
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ddd; /* Dark mode subheading color */
+    margin-bottom: 15px;
+}
+
+#what-is-treaty-one, #treaty-one-today, #treaty-one-history, #sources {
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(46, 46, 46, 0.9); /* Dark mode footer background */
+    color: #f5f5f5; /* Dark mode footer text color */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* W parallax!!! thank you for helping parallax!*/
+.parallax {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f5f5; /* Preformatted text color in dark mode */
+}
+
+.images {
+    margin-left: 70px;
+}
+
+::selection {
+    background-color: #a9c2e5;
+}
+
+a:visited {
+    color: #ddd; /* Dark mode visited link color */
+}
+
+a:hover {
+    color: #0077cc; /* Dark mode hover link color */
+}
